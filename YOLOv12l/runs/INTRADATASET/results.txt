@@ -1,0 +1,17 @@
+val: Fast image access ✅ (ping: 0.0±0.0 ms, read: 5397.3±2286.8 MB/s, size: 885.9 KB)
+val: Scanning /home/endoai/Desktop/PAPER/SegDatasets/ETIS-LaribPolypDB/test/labels.cache... 196 images, 0 backgrounds, 0 corrupt: 100%|██████████| 196/196 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 196/196 [00:04<00:00, 48.49it/s]
+                   all        196        208          1      0.361       0.68      0.582
+Speed: 0.2ms preprocess, 17.6ms inference, 0.0ms loss, 1.1ms postprocess per image
+
+val: Scanning /home/endoai/Desktop/PAPER/SegDatasets/CVC-ClinicDB/test/labels... 612 images, 0 backgrounds, 0 corrupt: 100%|██████████| 612/612 [00:00<00:00, 4184.59it/s]
+val: New cache created: /home/endoai/Desktop/PAPER/SegDatasets/CVC-ClinicDB/test/labels.cache
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 612/612 [00:10<00:00, 58.87it/s] 
+                   all        612        646      0.962      0.633      0.805       0.58
+Speed: 0.1ms preprocess, 14.4ms inference, 0.0ms loss, 0.8ms postprocess per image
+
+val: Scanning /home/endoai/Desktop/PAPER/SegDatasets/CVC-ColonDB/test/labels... 380 images, 0 backgrounds, 0 corrupt: 100%|██████████| 380/380 [00:00<00:00, 3135.85it/s]
+val: New cache created: /home/endoai/Desktop/PAPER/SegDatasets/CVC-ColonDB/test/labels.cache
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 380/380 [00:04<00:00, 77.01it/s] 
+                   all        380        380      0.982      0.587      0.789      0.651
+Speed: 0.1ms preprocess, 10.7ms inference, 0.0ms loss, 0.8ms postprocess per image

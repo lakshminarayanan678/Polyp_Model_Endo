@@ -1,0 +1,26 @@
+# Ignore videos and raw data
+*.mp4
+*.avi
+
+# Python cache and environment files
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+.env
+.venv
+*.env
+*.DS_Store
+
+# VSCode or editor-specific
+.vscode/
+.idea/
+
+# Ignore logs
+*.out
+
+# Ignore model checkpoints
+*.pth
+*.pt
+*.h5
+*.ckpt

@@ -1,0 +1,17 @@
+yolov12L
+[34m[1mtrain: [0mScanning /home/endoai/Desktop/PAPER/SPLITDATA/train/labels.cache... 121414 images, 59864 backgrounds, 0 corrupt: 100%|██████████| 121414/121414 [00:00<?, ?it/s][0m
+[34m[1mtrain: [0mScanning /home/endoai/Desktop/PAPER/SPLITDATA/train/labels.cache... 121414 images, 59864 backgrounds, 0 corrupt: 100%|██████████| 121414/121414 [00:00<?, ?it/s][0m
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 830.7±913.8 MB/s, size: 264.5 KB)
+
+[34m[1mval: [0mScanning /home/endoai/Desktop/PAPER/SPLITDATA/val/labels.cache... 34690 images, 17025 backgrounds, 0 corrupt: 100%|██████████| 34690/34690 [00:00<?, ?it/s][0m
+[34m[1mval: [0mScanning /home/endoai/Desktop/PAPER/SPLITDATA/val/labels.cache... 34690 images, 17025 backgrounds, 0 corrupt: 100%|██████████| 34690/34690 [00:00<?, ?it/s][0m
+Plotting labels to runs/detect/yolov12-benchmark/labels.jpg... 
+[34m[1moptimizer:[0m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically... 
+[34m[1moptimizer:[0m SGD(lr=0.01, momentum=0.9) with parameter groups 205 weight(decay=0.0), 214 weight(decay=0.0005), 211 bias(decay=0.0)
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/1085 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1085/1085 [01:28<00:00, 12.27it/s]
+                   all      34690      18499      0.966      0.913      0.954      0.723
+Speed: 0.1ms preprocess, 2.0ms inference, 0.0ms loss, 0.2ms postprocess per image

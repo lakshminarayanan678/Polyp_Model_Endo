@@ -1,0 +1,6 @@
+train: /home/endoai/Desktop/PAPER/SPLITDATA/train
+val: /home/endoai/Desktop/PAPER/SPLITDATA/val
+test: /home/endoai/Desktop/PAPER/SPLITDATA/test
+nc: 1  
+names: 
+  0: 'polyp'  

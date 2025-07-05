@@ -1,0 +1,25 @@
+
+Benchmarks complete for /home/endoai/Desktop/MODEL/RTDETR-L/runs/detect/rtdetr-l-benchmark/weights/best.pt on /home/endoai/Desktop/MODEL/test_etis.yaml at imgsz=640 (10365.86s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+                   Format Status❔  Size (MB) metrics/mAP50-95(B) Inference time (ms/im)     FPS
+0                 PyTorch       ❎       63.1                   -                      -       -
+1             TorchScript       ❎      122.8                   -                      -       -
+2                    ONNX       ✅      122.9                 0.0                   9.97  100.32
+3                OpenVINO       ❌        0.0                   -                      -       -
+4                TensorRT       ✅      147.7                 0.0                   3.13  319.46
+5                  CoreML       ❌        0.0                   -                      -       -
+6   TensorFlow SavedModel       ❌        0.0                   -                      -       -
+7     TensorFlow GraphDef       ❌        0.0                   -                      -       -
+8         TensorFlow Lite       ❌        0.0                   -                      -       -
+9     TensorFlow Edge TPU       ❌        0.0                   -                      -       -
+10          TensorFlow.js       ❌        0.0                   -                      -       -
+11           PaddlePaddle       ❎        0.0                   -                      -       -
+12                    MNN       ✅      122.9                 0.0                 232.69     4.3
+13                   NCNN       ❌        0.0                   -                      -       -
+14                    IMX       ❌        0.0                   -                      -       -
+15                   RKNN       ❌        0.0                   -                      -       -
+
+Benchmarks complete for /home/endoai/Desktop/MODEL/RTDETR-L/runs/detect/rtdetr-l-benchmark/weights/best.pt on /home/endoai/Desktop/MODEL/test_etis.yaml at imgsz=640 (4502.93s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+  Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)  FPS
+0   ONNX       ✅      122.9                  0.0                  120.44  8.3
