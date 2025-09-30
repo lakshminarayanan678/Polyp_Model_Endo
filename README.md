@@ -58,7 +58,7 @@ To assess **cross-dataset generalization**, we tested the trained models on **be
 ## Metrics & Visualizations
 
 - **Training curves**: F1, precision, recall, PR-curves.  
-- **Evaluation metrics**: mAP@0.5, mAP@0.5:0.95, confusion matrices. 
+- **Evaluation metrics**: AP@0.5, AP@0.75, confusion matrices, Model Fitness. 
 - **Cross-dataset generalization**: Tested on unseen datasets.  
 - Results available under:
   - `runs/detect/benchmark/` → INTERDATASET experiments  
@@ -90,13 +90,13 @@ b) CVC-ClinicDB
 |--------------|---------:|--------:|---------:|-------:|-------:|-------:|
 | **RTDETR-L** | 0.9016  | 0.6517  | 0.7775 | 0.8142 |0.6464| 0.5844| 
 | **YOLOv11-L**  |  0.9634 |   0.4375     |   0.6067   |   0.7154  | 0.6953 | 0.6242 |
-| **YOLOv12-L**   | 0.9824 | 0.5868  | 0.7348 | 0.7893 | 0.7638 | 0.6644 |
+| **YOLOv12-L**   | 0.9624 | 0.6331  |0.7638|0.8053| 0.6814 |0.6023|
 
 c) CVC-ColonDB
 | Model        | Precision | Recall | F1 Score | AP@0.5  | AP@0.75 | Model Fitness |
 |--------------|---------:|--------:|---------:|-------:|-------:|-------:|
-| **RTDETR-L** | 0.9016  | 0.6517  | 0.7775 | 0.8142 |0.6464| 0.5844| 
-| **YOLOv11-L**  |  0.9634 |   0.4375     |   0.6067   |   0.7154  | 0.6953 | 0.6242 |
+| **RTDETR-L** | 0.9515 | 0.7226 | 0.8214 | 0.8502 |0.7426|0.6335| 
+| **YOLOv11-L**  | 0.9818 | 0.5684 |0.7200 | 0.7801 |0.7501 | 0.6582 |
 | **YOLOv12-L**   | 0.9824 | 0.5868  | 0.7348 | 0.7893 | 0.7638 | 0.6644 |
 
 ## Installation
