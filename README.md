@@ -8,7 +8,7 @@ All **training logs, evaluation metrics, and visualizations** are tracked via [C
 
 ## Dataset Description
 
-The dataset information and preprocessing codes are provided in a separate repository via  [Polyp_Dataset_Endos](https://github.com/lakshminarayanan678/Polyp_Dataset_Endos/tree/main), .  
+The dataset information and preprocessing codes are provided in a separate repository via  [Polyp_Dataset_Endos](https://github.com/lakshminarayanan678/Polyp_Dataset_Endos/tree/main).  
 The models were tested in two experimental settings:  
 
 - **A. INTERDATASET (173,450 images)** – Training, validation, and testing across 5 large datasets combined.  
